@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import clsx from 'clsx'
 import { useState } from 'react'
 import { Link as LinkScroll } from 'react-scroll'
@@ -67,3 +68,5 @@ const Header = () => {
 }
 
 export default Header
+
+
