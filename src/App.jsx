@@ -1,4 +1,4 @@
-import Download from "./sections/Donload"
+import Download from "./sections/Donwload"
 import Faq from "./sections/Faq"
 import Features from "./sections/Features"
 import Header from "./sections/Header"
@@ -14,7 +14,7 @@ const App = () => {
         <Pricing/>
         <Faq/>
         <Download/>
-        
+
     </main>
   )
 }
