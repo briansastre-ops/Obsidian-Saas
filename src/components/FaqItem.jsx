@@ -1,13 +1,21 @@
 /* eslint-disable react/prop-types */
 import clsx from "clsx";
 import { useState } from "react";
-import { SlideDown } from "react-slidedown";
-import "react-slidedown/lib/slidedown.css";
+import { useSpring, animated } from 'react-spring';
 
 const FaqItem = ({ item, index }) => {
   const [activeId, setActiveId] = useState(null);
 
   const active = activeId === item.id;
+
+  // Define the animation styles based on whether the item is active
+  const slideStyles = useSpring({
+    opacity: active ? 1 : 0,
+    transform: active ? 'translateY(0)' : 'translateY(-20px)',
+    height: active ? 'auto' : 0,
+    overflow: 'hidden', // Ensure content doesn't overflow when closed
+    config: { tension: 300, friction: 30 }, // Customize animation if needed
+  });
 
   return (
     <div className="relative z-2 mb-16">
@@ -42,11 +50,12 @@ const FaqItem = ({ item, index }) => {
         </div>
       </div>
 
-      <SlideDown>
-        {activeId === item.id && (
+      {/* Use animated.div to apply spring styles */}
+      <animated.div style={slideStyles}>
+        {active && (
           <div className="body-3 px-7 py-3.5">{item.answer}</div>
         )}
-      </SlideDown>
+      </animated.div>
 
       <div
         className={clsx(
@@ -60,4 +69,5 @@ const FaqItem = ({ item, index }) => {
     </div>
   );
 };
+
 export default FaqItem;
