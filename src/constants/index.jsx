@@ -45,67 +45,66 @@ export const details = [
     title: "24 / 7 Customer support",
   },
 ];
-
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Obsidian?",
+    question: "How easy is it to set up Obsidian?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! Not only can you upgrade your plan at any time, but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
     id: "1",
     question: "Can I integrate Obsidian with other platforms?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, Obsidian offers integrations with various platforms through plugins and APIs, allowing you to connect with tools like Google Drive, Notion, and more."
   },
   {
     id: "2",
     question: "How often do you add new content?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We regularly update our content, aiming to add new resources and features on a monthly basis to enhance your experience."
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What is your refund policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Our refund policy allows you to request a full refund within the first 30 days of your subscription if you're not satisfied with the service."
   },
   {
     id: "4",
     question: "Do you have corporate plans?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we offer tailored corporate plans that provide additional features and support for teams. Please contact us for more details."
   },
   {
     id: "5",
     question: "What happens when I’m out of storage?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "When you reach your storage limit, you will receive a notification. You can either upgrade your plan for more storage or free up space by deleting old files."
   },
   {
     id: "6",
     question: "Can I upgrade my plan?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! You can upgrade your plan at any time through your account settings, and you will receive a prorated discount for your new plan."
   },
   {
     id: "7",
     question: "How do I invite my team?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "To invite your team, go to the 'Team' section in your settings and enter their email addresses. They will receive an invitation to join your workspace."
   },
   {
     id: "8",
     question: "Do you offer training for individuals and teams?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, we provide training sessions for both individuals and teams to help you maximize the use of Obsidian. Contact us to schedule a session."
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "I’m locked out of my account, what do I do?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "If you’re locked out, please use the 'Forgot Password' option on the login page. If you need further assistance, contact our support team for help."
   },
 ];
 
@@ -157,56 +156,6 @@ export const plans = [
   },
 ];
 
-export const testimonials = [
-  {
-    id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
-    comment:
-      "Obsidian's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
-  },
-  {
-    id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
-    comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
-  },
-  {
-    id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
-    comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
-  },
-  {
-    id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
-    comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Obsidian last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
-  },
-];
 
 export const logos = [
   {
